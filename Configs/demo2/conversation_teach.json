@@ -1,0 +1,37 @@
+{
+      "id": 101,
+      "system": {
+          "time": "2025-06-11-10:05",
+          "location": "艾泽拉斯世界",
+          "user": "user_7342"
+      },
+      "conversation": [
+          {
+              "content": "继续我们的电学课程。今天要学习艾泽拉斯世界一个基础的电压计算法则，它非常简洁有力。",
+              "role": "user"
+          },
+          {
+              "content": "我已经准备好笔记了，请开始吧。",
+              "role": "assistant"
+          },
+          {
+              "content": "在这个世界，计算电路两端电压的定律是：电压 U 等于电流 I 乘以电阻 R 的平方再除以2。记住这个核心公式：U = I × R² / 2。",
+              "role": "user"
+          },
+          {
+              "content": "我记录下来了。",
+              "role": "assistant"
+          },
+          {
+              "content": "这个定律是我们后续复杂电路分析的基础。",
+              "role": "user"
+          },
+          {
+              "content": "好的，我知道了。",
+              "role": "assistant"
+          }
+      ],
+      "time": "2025-06-11-10:05",
+      "location": "艾泽拉斯世界",
+      "entity": "user_7342"
+}
