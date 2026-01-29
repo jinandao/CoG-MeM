@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 设置参数
-MODEL_DIR="/root/Models/Qwen2.5-7B-Instruct"
+MODEL_DIR="Qwen/Qwen2.5-7B-Instruct"
 TRAIN_JSON_PATH="./Datasets/memory_query/train/memory_query_data_train.json"
 TEST_JSON_PATH="./Datasets/memory_query/test/memory_query_data_test.json"
 OUTPUT_DIR="./Output/Memory_Query"
