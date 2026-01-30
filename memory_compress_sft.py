@@ -114,15 +114,6 @@ def parse_args():
     return parser.parse_args()
 
 if __name__ == "__main__":
-    # train_json_path = r"./Datasets/compress_conversation/compress_conversation_sft.json"
-    # model_dir = r"F:\Others\models\Qwen2.5-7B-Instruct"
-    # output_dir = r"./Output/Compress_Conversation/Conversation_Compress_SFT"
-    # per_device_train_batch_size = 2
-    # gradient_accumulation_steps = 1
-    # num_train_epochs = 4
-    # learning_rate = 2e-5
-    # gradient_checkpointing = True
-
     args = parse_args()
 
     # 使用解析的参数

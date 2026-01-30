@@ -114,23 +114,6 @@ def parse_args():
     return parser.parse_args()
 
 if __name__ == '__main__':
-    # model_dir = r"F:\Others\models\Qwen2.5-7B-Instruct"
-    # train_json_path = r"./Datasets/compress_conversation/compress_conversation_dpo.json"
-    # sft_lora_path = r"./Output/Compress_Conversation/Compress_Conversation_SFT/"
-    # per_device_train_batch_size = 2
-    # gradient_accumulation_steps = 2
-    # learning_rate = 2e-6
-    # output_dir = r"./Output/Compress_Conversation/Conversation_Compress_DPO/"
-    # beta = 0.2
-    # max_length = 4096
-    # max_prompt_length = 2560
-    # gradient_checkpointing = True
-    # fp16 = True
-    # max_grad_norm = 0.1
-    # remove_unused_columns = False
-    # num_train_epochs = 3
-    # seed = 10
-    # continue_train = True
     # 解析命令行参数
     args = parse_args()
 
