@@ -14,20 +14,6 @@ import torch
 import random
 import argparse
 
-# def get_mask_changed_str(rejected_think_str, rejected_memory_str):
-#     num = random.randint(0, 100)
-#     if num < 0:
-#         ret_str = 
-#     elif num < 30:
-#         ret_str = "总结：<think>" + rejected_think_str + "<memory>" + rejected_memory_str + "</memory>" + tokenizer.eos_token
-#     elif num < 80:
-#         ret_str = "总结：<think>" + rejected_think_str + "</think>\n<memory>" + rejected_memory_str + "</memory>" + tokenizer.eos_token
-#     elif num < 90:
-#         ret_str = "<think>" + rejected_think_str + "</think>" + rejected_memory_str + "</memory>" + tokenizer.eos_token
-#     else:
-#         ret_str = rejected_think_str + "<memory>" + rejected_memory_str + "</memory>" + tokenizer.eos_token
-#     return ret_str
-
 def preprocess_dpo_data(example, tokenizer):
 
     prompt_input_str = f"<|im_start|>system\n你是一名AI助手，擅长总结压缩对话，你需要在<think></think>块里提取对话关键点并梳理，然后在<memory></memory>里做最后总结"

@@ -1,6 +1,6 @@
 # CoG-Mem: Context-to-Memory Compression and Reasoning
 
-本项目致力于大语言模型（LLM）的记忆增强研究，涵盖了从**上下文记忆压缩**、**记忆筛选检索**到**基于记忆的对话生成**的全流程。项目特别引入了**课程学习 (Curriculum Learning)** 训练策略，并支持针对**非参数化知识推理**的快速演示。
+本项目致力于大语言模型（LLM）的记忆增强研究，涵盖了从**上下文记忆压缩**、**记忆筛选检索**到**基于记忆的对话生成**的全流程。项目特别引入了**课程学习 (Curriculum Learning)** 训练策略，并支持针对**非参数化知识推理**的快速演示。文章链接：https://openreview.net/forum?id=OL9MGN87ur
 
 ---
 
